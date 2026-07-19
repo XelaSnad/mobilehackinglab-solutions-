@@ -2,4 +2,4 @@
 
 This repo contains my results to mobilehackinglab
 
-New sytt
+New syttgit
