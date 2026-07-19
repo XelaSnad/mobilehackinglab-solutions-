@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. flipcoin-wallet/flipcoin-wallet-solution.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "flipcoin-wallet-solution"
+              "title": "README"
             }
           }
         ],
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. flipcoin-wallet/flipcoin-wallet-solution.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for flipcoin-wallet-solution"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. flipcoin-wallet/flipcoin-wallet-solution.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from flipcoin-wallet-solution"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. flipcoin-wallet/flipcoin-wallet-solution.md"
+                "file": "README.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of flipcoin-wallet-solution"
+              "title": "Outline of README"
             }
           },
           {
@@ -191,9 +191,9 @@
   },
   "active": "918884f98b92a8a6",
   "lastOpenFiles": [
+    "2. flipcoin-wallet/flipcoin-wallet-solution.md",
     "2. flipcoin-wallet/IMG_0004.PNG",
     "1. brocklesnor/brocklesnor-solution.md",
-    "2. flipcoin-wallet/flipcoin-wallet-solution.md",
     "2. flipcoin-wallet/flipcoin-wallet-solution.md.tmp.875055.3a39d3cce109",
     "2. flipcoin-wallet/burp-POST.png",
     "README.md",
