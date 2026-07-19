@@ -1,2 +1,3 @@
 # mobilehackinglab-solutions-
-This is going to contain my solutions to mobile hacking labs. 
+
+This repo contains my results to mobilehackinglab
