@@ -144,23 +144,34 @@
               "icon": "lucide-list",
               "title": "Outline of README"
             }
+          },
+          {
+            "id": "2421a525b0d552cf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "github-sync:Sync with Remote": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": false,
-      "github-sync:Sync with Remote": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "f00b3898dcafe8c5",
