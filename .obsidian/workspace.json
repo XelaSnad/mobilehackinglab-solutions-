@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "3. no-escape/no-escape-solution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "no-escape-solution"
             }
           }
         ],
@@ -192,8 +192,12 @@
   },
   "active": "918884f98b92a8a6",
   "lastOpenFiles": [
+    "3. no-escape/ghidra-symbol-jailbreak.png",
     "3. no-escape/no-escape-solution.md",
     "README.md",
+    "3. no-escape/no-escape-solution.md.tmp.427378.688e4ae92aba",
+    "3. no-escape/no-escape-solution.md.tmp.427378.a99c14e8633f",
+    "3. no-escape/no-escape-solution.md.tmp.427378.3d223b8fd7d8",
     "3. no-escape/no-escape-frida.js",
     "3. no-escape/Untitled.md",
     "3. no-escape",
@@ -205,8 +209,6 @@
     "2. flipcoin-wallet",
     "1. brocklesnor/Untitled",
     "1. brocklesnor/Solution.md.tmp.11269.7fdbd282ff26",
-    "1. brocklesnor/server.py",
-    "1. brocklesnor",
-    "README.md.tmp.11269.d8280ac66c06"
+    "1. brocklesnor/server.py"
   ]
 }

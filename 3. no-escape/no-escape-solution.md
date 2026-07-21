@@ -1,10 +1,10 @@
-This application is a jailbreak detect CTF.
+This application is a jailbreak-detection CTF.
 
-I begin with ghidra and identify the following functions that contain jailbreak in their name.  
+I begin with Ghidra and identify the following functions that contain "jailbreak" in their name.
 
-[insert]
+![[ghidra-symbol-jailbreak.png]]
 
-The logic flow looks like this, I renamed a few of the variables for readability. 
+The logic flow looks like this. I renamed a few of the variables for readability.
 
 ```C
 bool _$s9No_Escape12isJailbroken(ulong param_1)
@@ -40,19 +40,19 @@ bool _$s9No_Escape12isJailbroken(ulong param_1)
 }
 ```
 
-The function `isJailbroken` essentially has 4 different checks to see if the device is jailbroken. 
+The function `isJailbroken` essentially has four different checks to see if the device is jailbroken. 
 
-First, it checks for any files that a jailbroken device will have i.e. cydia, `/Application/cydia.app`, `/bin/sshd` e.t.c. 
+First, it checks for any files that a jailbroken device would have, e.g., Cydia, `/Application/cydia.app`, `/bin/sshd`, etc. 
 
-I am using palera1n with sileo so I don't think I will flag for cydia but I may flag for some 'illegal' binaries. 
+I am using palera1n with Sileo, so I don't think I will flag for Cydia, but I may flag for some 'illegal' binaries. 
 
-The next check is to see if the system directory, to see if it is writable as this would mean a jailbreak. 
+The next check is to see if the system directory is writable, as this would indicate a jailbreak. 
 
-It then uses a deeplionk of `cydia://` to attempt to open cydia incase it is renamed to check. 
+It then uses a deep link of `cydia://` to attempt to open Cydia, in case it has been renamed, as a further check. 
 
 The final check is a sandbox violation check.
 
-Fortunately we can use Frida to just make this function always return false. Fun Hack, our `.js` frida function looks like this 
+Fortunately, we can use Frida to make this function always return false. Fun hack — our `.js` Frida script looks like this: 
 
 ```js
 console.log("Objc Check Script loaded, PID:", Process.id);
