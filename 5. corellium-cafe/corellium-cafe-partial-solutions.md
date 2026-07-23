@@ -56,11 +56,11 @@ Using Ghidra we found the string `CorelliumizAwesome`, specifically used in:
 
 We see it being leaked to the OS log.
 
-![[promocode.png]]
+![](promocode.png)
 
 Interesting note here: on a non-virtualised device, when you try to input the code it pulls up a numpad, so this vulnerability can only be exploited with a keyboard attached to the device, or if you use other methods such as clipboard.
 
-![[promocode_empty.png]]
+![](promocode_empty.png)
 Bringing it together
 
 Across all three areas the same pattern shows up: the app trusts the client far too much. On the platform side, content rendered in the WebView isn't sanitised at all, so arbitrary JavaScript runs. On resilience, the jailbreak check comes down to a single unprotected ￼￼fileExistsAtPath:￼￼ call, trivial to hook and flip with Objection/Frida. And on storage, sensitive data is left exposed in multiple places at once — the discount code via the OS log, and the credit card number and debug login credentials sitting in plain text in the local SQLite database and preferences plist. None of it needs any real reversing skill to get to, just poking around Ghidra strings and the app's private data.

@@ -2,7 +2,7 @@ This application is a jailbreak-detection CTF.
 
 I begin with Ghidra and identify the following functions that contain "jailbreak" in their name.
 
-![[ghidra-symbol-jailbreak.png]]
+![](ghidra-symbol-jailbreak.png)
 
 The logic flow looks like this. I renamed a few of the variables for readability.
 
