@@ -10,3 +10,5 @@ Check out the solutions here:
 [2. flipcoin-wallet](https://github.com/XelaSnad/mobilehackinglab-solutions-/blob/main/2.%20flipcoin-wallet/flipcoin-wallet-solution.md)
 
 [3. no-escape](https://github.com/XelaSnad/mobilehackinglab-solutions-/blob/main/3.%20no-escape/no-escape-solution.md)
+
+[5. corellium-cafe](https://github.com/XelaSnad/mobilehackinglab-solutions-/blob/main/5.%20corellium-cafe/corellium-cafe-partial-solutions.md)
