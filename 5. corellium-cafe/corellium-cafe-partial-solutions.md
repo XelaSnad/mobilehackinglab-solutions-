@@ -45,8 +45,7 @@ Interceptor.attach(
 );
 ```
 
-![[jailbreak.png]]
-
+![](jailbreak.png)
 ## Storage
 
 ### MASWE-0001: Insertion of Sensitive Data into Logs
