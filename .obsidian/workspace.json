@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. no-escape/no-escape-solution.md",
+                "file": "5. corellium-cafe/corellium-cafe-partial-solutions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "no-escape-solution"
+              "title": "corellium-cafe-partial-solutions"
             }
           }
         ],
@@ -192,9 +192,25 @@
   },
   "active": "918884f98b92a8a6",
   "lastOpenFiles": [
-    "3. no-escape/ghidra-symbol-jailbreak.png",
-    "3. no-escape/no-escape-solution.md",
     "README.md",
+    "5. corellium-cafe/corellium-cafe-partial-solutions.md",
+    "5. corellium-cafe/corellium-cafe-partial-solutions.md.tmp.65731.5681c011c6b1",
+    "5. corellium-cafe/corellium-cafe-partial-solutions.md.tmp.65731.2809ff9099f0",
+    "5. corellium-cafe/corellium-cafe-partial-solutions.md.tmp.65731.889426d2be1e",
+    "promocode_empty.png",
+    "promocode.png",
+    "jailbreak.png",
+    "5. corellium-cafe/MASWE-STORAGE.md",
+    "5. corellium-cafe/MASWE-RESILIENCE.md",
+    "5. corellium-cafe/MASWE-PLATFORM.md",
+    "5. corellium-cafe/MASWE-NETWORK.md",
+    "5. corellium-cafe/Untitled.md",
+    "4. pictator (unfinished)/pictator-solution.md",
+    "5. corellium-cafe",
+    "4. pictator (unfinished)/Pasted image 20260721014046.png",
+    "3. no-escape/no-escape-solution.md",
+    "4. pictator (unfinished)",
+    "3. no-escape/ghidra-symbol-jailbreak.png",
     "3. no-escape/no-escape-solution.md.tmp.427378.688e4ae92aba",
     "3. no-escape/no-escape-solution.md.tmp.427378.a99c14e8633f",
     "3. no-escape/no-escape-solution.md.tmp.427378.3d223b8fd7d8",
@@ -204,11 +220,6 @@
     "2. flipcoin-wallet/flipcoin-wallet-solution.md",
     "2. flipcoin-wallet/IMG_0004.PNG",
     "1. brocklesnor/brocklesnor-solution.md",
-    "2. flipcoin-wallet/flipcoin-wallet-solution.md.tmp.875055.3a39d3cce109",
-    "2. flipcoin-wallet/burp-POST.png",
-    "2. flipcoin-wallet",
-    "1. brocklesnor/Untitled",
-    "1. brocklesnor/Solution.md.tmp.11269.7fdbd282ff26",
-    "1. brocklesnor/server.py"
+    "2. flipcoin-wallet/burp-POST.png"
   ]
 }
